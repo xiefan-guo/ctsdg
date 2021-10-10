@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# CTSDG
-=======
 # CTSDG
 
 <img src='assets/teaser.png'/>
@@ -44,7 +40,6 @@ cd CTSDG
 ```
 pip install -r requirements.txt
 ```
-
 ### Datasets
 
 **Image Dataset.** We evaluate the proposed method on the [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), [Paris StreetView](https://github.com/pathak22/context-encoder), and [Places2](http://places2.csail.mit.edu/) datasets, which are widely adopted in the literature. 
@@ -66,7 +61,6 @@ python train.py \
   --pre_trained [path to checkpoints] \
   --finetune True
 ```
-
 ### Testing
 
 ```
@@ -92,8 +86,3 @@ If any part of our paper and repository is helpful to your work, please generous
     pages     = {14134-14143}
 }
 ```
-
->>>>>>> e1a78ea (first commit)
-=======
-# CTSDG
->>>>>>> 2e33ac9a545e27b9481a4515d95617f163863416
