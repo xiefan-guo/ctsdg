@@ -61,7 +61,16 @@ python train.py \
   --pre_trained [path to checkpoints] \
   --finetune True
 ```
+
+__Distributed training support.__ You can train model in distributed settings.
+
+```
+python -m torch.distributed.launch --nproc_per_node=N_GPU train.py
+```
+
 ### Testing
+
+To test the model, you run the following code.
 
 ```
 python test.py \
